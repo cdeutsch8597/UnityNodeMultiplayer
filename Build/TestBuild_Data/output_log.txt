@@ -7,46 +7,24 @@ Direct3D:
     VRAM:     3072 MB
     Driver:   21.21.13.7735
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.015 seconds
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\Mono.Security.dll (this message is harmless)
-desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.021 seconds
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Mono.Security.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.047399 ms
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 245fc -> priority: 1 
-  Thread -> id: 23a1c -> priority: 1 
-  Thread -> id: 24094 -> priority: 1 
-  Thread -> id: 23f34 -> priority: 1 
-We are Connected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-We are Connected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player Spawned!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player Spawned!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 Initialize engine version: 5.6.0f3 (497a0f351392)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -56,30 +34,58 @@ Direct3D:
     VRAM:     3072 MB
     Driver:   21.21.13.7735
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\SocketIOLab\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 - Completed reload, in  0.015 seconds
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\SocketIOLab\Build\TestBuild_Data\Managed\Mono.Security.dll (this message is harmless)
-desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Mono.Security.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.075342 ms
+UnloadTime: 0.874345 ms
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro M4000 (ID=0x13f1)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7735
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.016 seconds
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\UnityNodeMultiplayer\Build\TestBuild_Data\Managed\Mono.Security.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.954869 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 24b14 -> priority: 1 
-  Thread -> id: 24b0c -> priority: 1 
-  Thread -> id: 24b18 -> priority: 1 
-  Thread -> id: 24b10 -> priority: 1 
+  Thread -> id: cafd0 -> priority: 1 
+  Thread -> id: ca634 -> priority: 1 
+  Thread -> id: ca890 -> priority: 1 
+  Thread -> id: c9810 -> priority: 1 
 We are Connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -88,19 +94,30 @@ We are Connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Player Spawned!
+UnloadTime: 0.929931 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: c2de0 -> priority: 1 
+  Thread -> id: cb1b8 -> priority: 1 
+  Thread -> id: cb1c4 -> priority: 1 
+  Thread -> id: cac4c -> priority: 1 
+We are Connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Player Spawned!
+We are Connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Player Spawned!
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: ca7ac -> priority: 1 
+  Thread -> id: cb1f0 -> priority: 1 
+  Thread -> id: caf30 -> priority: 1 
+  Thread -> id: c98f0 -> priority: 1 
+We are Connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Player Spawned!
+We are Connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
