@@ -5,7 +5,7 @@ using SocketIO;
 
 public class Network : MonoBehaviour
 {
-    static SocketIOComponent socket;
+    public static SocketIOComponent socket;
     public GameObject playerPrefab;
 
     Dictionary<string, GameObject> players;
@@ -17,6 +17,7 @@ public class Network : MonoBehaviour
         socket.On("open", OnConnected);
         socket.On("spawn player", OnSpawned);
         socket.On("disconnected", OnDisconnected);
+        socket.On("move", OnMove);
         players = new Dictionary<string, GameObject>();
     }
 
@@ -44,5 +45,25 @@ public class Network : MonoBehaviour
         Destroy(player);
         players.Remove(id);
 
+    }
+    void OnMove(SocketIOEvent e)
+    {
+        Debug.Log("Network Player is moving " + e.data);
+
+        string id = e.data["id"].ToString();
+        GameObject player = players[id];
+
+
+        var position = new Vector3(GetFloatFromJson(e.data,"x"), 0, GetFloatFromJson(e.data,"y"));
+
+        Debug.Log("Position: " + position );
+        var netMove = player.GetComponent<CharacterMovement>();
+
+        netMove.NetMove(position);
+    }
+
+    float GetFloatFromJson(JSONObject data, string key)
+    {
+        return float.Parse(data[key].ToString().Replace("\"", ""));
     }
 }
