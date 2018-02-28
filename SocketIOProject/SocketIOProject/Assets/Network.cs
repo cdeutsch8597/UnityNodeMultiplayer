@@ -55,11 +55,13 @@ public class Network : MonoBehaviour
 
 
         var position = new Vector3(GetFloatFromJson(e.data,"x"), 0, GetFloatFromJson(e.data,"y"));
+        var h = GetFloatFromJson(e.data, "h");
+        var v = GetFloatFromJson(e.data, "v");
 
         Debug.Log("Position: " + position );
         var netMove = player.GetComponent<CharacterMovement>();
 
-        netMove.NetMove(position);
+        netMove.NetMove(position, h, v);
     }
 
     float GetFloatFromJson(JSONObject data, string key)
