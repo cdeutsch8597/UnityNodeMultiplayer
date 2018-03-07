@@ -12,6 +12,8 @@ public class CharacterMovement : MonoBehaviour
 	private Vector3 turning;
 	private Animator anim;
 	private Rigidbody playerRigidbody;
+	public bool isActive;
+
 
 	void Awake()
 	{
@@ -22,6 +24,8 @@ public class CharacterMovement : MonoBehaviour
 
 	void FixedUpdate()
 	{
+		if (!isActive)return;
+
 		//Store input axes
 		float h = Input.GetAxis("Horizontal");
 		float v = Input.GetAxis ("Vertical");
@@ -50,36 +54,35 @@ public class CharacterMovement : MonoBehaviour
 
 	}
 
-    public void NetMove(Vector3 position, float h, float v)
-    {
-        transform.position = position;
-        Animating(h, v);
-        if (h != 0f || v != 0f)
-        {
-            NetworkRotating(h, v);
-        }
+	public void NetworkMovement(Vector3 pos, float h, float v){
+		transform.position = pos;
+		Animating (h, v);
+		if(h != 0f || v != 0f)
+		{
+			NetworkRotating(h, v);
+		}
+	}
 
-    }
-
-    void Rotating(float h, float v)
+	void Rotating(float h, float v)
 	{
 		Vector3 targetDirection = new Vector3(h, 0f, v);
 		Quaternion targetRotation = Quaternion.LookRotation (targetDirection, Vector3.up);
-		Quaternion newRotation = Quaternion.Lerp (GetComponent<Rigidbody>().rotation, targetRotation, turnSmoothing * Time.deltaTime);
+		Quaternion newRotation = Quaternion.Lerp (GetComponent<Rigidbody> ().rotation, targetRotation, turnSmoothing * Time.deltaTime);
 		GetComponent<Rigidbody>().MoveRotation(newRotation);
 	}
 
-    void NetworkRotating(float h, float v)
-    {
-        Vector3 targetDirection = new Vector3(h, 0f, v);
-        Quaternion targetRotation = Quaternion.LookRotation(targetDirection, Vector3.up);
-        Quaternion newRotation = Quaternion.Lerp(GetComponent<Rigidbody>().rotation, targetRotation, turnSmoothing * Time.deltaTime);
-        //GetComponent<Rigidbody>().MoveRotation(newRotation);
-        transform.rotation = newRotation;
-    }
+	void NetworkRotating(float h, float v)
+	{
+		Vector3 targetDirection = new Vector3(h, 0f, v);
+		Quaternion targetRotation = Quaternion.LookRotation (targetDirection, Vector3.up);
+		Quaternion newRotation = Quaternion.Lerp (GetComponent<Rigidbody> ().rotation, targetRotation, turnSmoothing * Time.deltaTime);
+		//GetComponent<Rigidbody>().MoveRotation(newRotation);
+		transform.rotation = newRotation;
 
-    //Regular Animation
-    void Animating(float h, float v)
+	}
+
+	//Regular Animation
+	void Animating(float h, float v)
 	{
 		bool running = h != 0f || v != 0f;
 
